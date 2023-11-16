@@ -1,34 +1,49 @@
+body{
+    background: lightgray;
+    margin: 0;
+}
+
 header{
-    background: blue;
+    padding: 10px;
+    background: white;
 }
 
-div{
-    margin-top: 5px;
-}
-
-.todo {
-    background: yellow;
-    width: 400px;
+h1{
+    margin: 0;
 }
 
 body{
-    display: flex;
-    justify-content: center;
+    background: lightgray;
 }
 
-h2{
-    width: 80%;
+.post {
+    background: white;
+    margin-top: 30px;
 }
 
-span{
-    width: 10%;
-    float: right;
+.container{
+    width: 600px;
+    margin: auto;
 }
 
-img{
+.post img{
     width: 100%;
 }
 
-.titulo{
-    display: flex;
+.post h2, .post p{
+    padding: 10px;
+    margin: 0;
 }
+
+.post-header div:first-child{
+    display: inline-block;
+    width: 80%;
+}
+
+.post .post-header div:last-child{
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+    color: lgightgray;
+}
+
